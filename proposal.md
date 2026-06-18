@@ -1,6 +1,8 @@
+## Proposal for Capstone Project
+
 # Topic: "Predicting results in modern football games by exploiting Statsbomb statistics data and using Machine Learning algorithms in AWS SageMaker"
 
-Part of Udacity's Nanodegree Program "AWS Machine Learning Engineer" (nd189) - Proposal for Capstone Project
+Part of Udacity's Nanodegree Program "AWS Machine Learning Engineer" (nd189) - 
 
 ## 1. Domain Background
 
