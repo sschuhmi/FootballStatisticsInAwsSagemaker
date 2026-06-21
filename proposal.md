@@ -8,6 +8,8 @@ Part of Udacity's Nanodegree Program "AWS Machine Learning Engineer" (nd189) -
 
 <!-- Student briefly details background information of the domain from which the project is proposed. Historical information relevant to the project should be included. It should be clear how or why a problem in the domain can or should be solved. Related academic research should be appropriately cited. A discussion of the student's personal motivation for investigating a particular problem in the domain is encouraged but not required. -->
 
+In modern football, data in shape of match statistics is comprehensive and vital to understand why 
+
 ## 2. Problem Statement
 
 <!-- Student clearly describes the problem that is to be solved. The problem is well defined and has at least one relevant potential solution. Additionally, the problem is quantifiable, measurable, and replicable. -->
@@ -19,6 +21,10 @@ Part of Udacity's Nanodegree Program "AWS Machine Learning Engineer" (nd189) -
 ## 4. Datasets and Inputs
 
 <!-- The dataset(s) and/or input(s) to be used in the project are thoroughly described. Information such as how the dataset or input is (was) obtained, and the characteristics of the dataset or input, should be included. It should be clear how the dataset(s) or input(s) will be used in the project and whether their use is appropriate given the context of the problem. -->
+
+In this project, we rely on the well-known StatsBomb open source dataset, which encompasses extensive statistics of thousands of played matches in different competitions like the global World Cup, continental championships such as the Copa America in South America, or club championships like the European Champions League.
+
+The StatsBomb dataset is publicly available via GitHub [1].
 
 ## 5. Benchmark Model
 
@@ -35,3 +41,7 @@ Part of Udacity's Nanodegree Program "AWS Machine Learning Engineer" (nd189) -
 ## 8. Project Design
 
 <!-- Student summarizes a theoretical workflow for approaching a solution given the problem. A discussion is made as to what strategies may be employed, what analysis of the data might be required, or which algorithms will be considered. The workflow and discussion provided align with the qualities of the project. Small visualizations, pseudocode, or diagrams are encouraged but not required. -->
+
+## 9. References
+
+[1] StatsBomb Open Data: https://github.com/statsbomb/open-data
