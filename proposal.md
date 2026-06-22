@@ -50,13 +50,13 @@ In this project, we will perform the following workflow tp approach a solution t
   - Pre-processing and cleaning the data (if needed)
   - Uploading the data to an S3 Bucket to make it available for SageMaker training
 2. Data Exploration *- important to gain an insight of the data*
-- Visualizing some specific details of the data to give an insgight into the data
+  - Visualizing some specific details of the data to give an insgight into the data
 3. Creation of Training Script *- standard proceeding in modern Machine Learning approaches*
-- First, reading, loading and pre-processing the StatsBomb data
-- Then, splitting the data into train, test, and validation
-- Finally, training the data with the chosen architecture
+  - First, reading, loading and pre-processing the StatsBomb data
+  - Then, splitting the data into train, test, and validation
+  - Finally, training the data with the chosen architecture
 4. Deployment of the model *- making the results of the model training available to other users*
-- Providing a SageMaker inference endpoint to test the model with previously unregarded match data of StatsBomb
+  - Providing a SageMaker inference endpoint to test the model with previously unregarded match data of StatsBomb
 
 ## 9. References
 
