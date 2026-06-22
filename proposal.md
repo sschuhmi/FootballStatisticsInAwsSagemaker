@@ -33,6 +33,11 @@ The StatsBomb dataset is publicly available via GitHub [1].
 
 We exploit the large open data set and use Machine Learning multi-output Classifiers and Regressors to predict the winner of a match, compared to a simple non-ML Classifier which randomly decides one of the possible three results - first team wins, second team wins, or there is a draw between the teams.
 
+Amongst the mentioned Classifiers and Regressors are the following:
+- Decision Trees
+- Random Forests
+- Gradient Descent
+
 ## 6. Evaluation Metrics
 
 <!-- 	Student proposes at least one evaluation metric that can be used to quantify the performance of both the benchmark model and the solution model presented. The evaluation metric(s) proposed are appropriate given the context of the data, the problem statement, and the intended solution.  -->
@@ -42,9 +47,24 @@ Common classification metrics in Machine Learning like Precision, Recall, or the
 Here, the Accuracy is calculated in a row-wise manner representing single football matches.
 
 
-Accuracy score: The accuracy_score represents the fraction of correctly classified samples. Here, a sample represents a single row vector within the results matrix. As our main goal is to have the most matches between the actual and the predicted results (i.e., the number rows of the result matrix should be maximized), the accuracy (calculated in a row-wise manner) is considered to be the most important of the above metrics here.
+Accuracy is defined as the proportion of correct predictions:
 
-Regarding analytical data in modern football, ...
+$$
+\text{Accuracy} = \frac{\text{number of correct predictions}}{\text{total number of predictions}}
+$$
+
+For a dataset of size $n$, this means:
+
+$$
+\text{Accuracy} = \frac{1}{n} \sum_{i=1}^{n} \mathbf{1}(\hat{y}_i = y_i)
+$$
+
+where:
+
+- $\hat{y}_i$ = predicted label  
+- $y_i$ = true label  
+- $\mathbf{1}(\cdot)$ = indicator function  
+
 
 ## 7. Presentation
 
