@@ -8,7 +8,8 @@ Part of Udacity's Nanodegree Program "AWS Machine Learning Engineer" (nd189) -
 
 <!-- Student briefly details background information of the domain from which the project is proposed. Historical information relevant to the project should be included. It should be clear how or why a problem in the domain can or should be solved. Related academic research should be appropriately cited. A discussion of the student's personal motivation for investigating a particular problem in the domain is encouraged but not required. -->
 
-In modern football, data in shape of match statistics is comprehensive and vital to understand why 
+In modern football, data in shape of match statistics is comprehensive and vital e.g. for club managers to investigate strengths and weaknesses of their clubs. 
+In the last years, the amount of analysis data that is generated in modern football matches using cameras, drones or other advanced technologies has significantly increased.
 
 ## 2. Problem Statement
 
@@ -30,15 +31,26 @@ The StatsBomb dataset is publicly available via GitHub [1].
 
 <!-- A benchmark model is provided that relates to the domain, problem statement, and intended solution. Ideally, the student's benchmark model provides context for existing methods or known information in the domain and problem given, which can then be objectively compared to the student's solution. The benchmark model is clearly defined and measurable. -->
 
+We exploit the large open data set and use Machine Learning multi-output Classifiers and Regressors to predict the winner of a match, compared to a simple non-ML Classifier which randomly decides one of the possible three results - first team wins, second team wins, or there is a draw between the teams.
+
 ## 6. Evaluation Metrics
 
 <!-- 	Student proposes at least one evaluation metric that can be used to quantify the performance of both the benchmark model and the solution model presented. The evaluation metric(s) proposed are appropriate given the context of the data, the problem statement, and the intended solution.  -->
+
+Common classification metrics in Machine Learning like Precision, Recall, or the F1 Score are used, while the most important metric here will be the **Accuracy Score**, which represents the fraction of correctly classified samples, since it determines how many of the matches' results have been correctly classified.
+
+Here, the Accuracy is calculated in a row-wise manner representing single football matches.
+
+
+Accuracy score: The accuracy_score represents the fraction of correctly classified samples. Here, a sample represents a single row vector within the results matrix. As our main goal is to have the most matches between the actual and the predicted results (i.e., the number rows of the result matrix should be maximized), the accuracy (calculated in a row-wise manner) is considered to be the most important of the above metrics here.
 
 Regarding analytical data in modern football, ...
 
 ## 7. Presentation
 
 <!-- The proposal follows a well-organized structure and would be readily understood by its intended audience. Each section is written in a clear, concise and specific manner. Few grammatical and spelling mistakes are present. All resources used and referenced are properly cited. -->
+
+The results of the project will be presented in a final report following a well-organized structure, intended to be readily understood by readers interested in the general football topic as well as the specific data analysis and Machine Learning background of the paper.
 
 ## 8. Project Design
 
