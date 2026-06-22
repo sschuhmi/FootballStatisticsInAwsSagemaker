@@ -34,6 +34,8 @@ The StatsBomb dataset is publicly available via GitHub [1].
 
 <!-- 	Student proposes at least one evaluation metric that can be used to quantify the performance of both the benchmark model and the solution model presented. The evaluation metric(s) proposed are appropriate given the context of the data, the problem statement, and the intended solution.  -->
 
+Regarding analytical data in modern football, ...
+
 ## 7. Presentation
 
 <!-- The proposal follows a well-organized structure and would be readily understood by its intended audience. Each section is written in a clear, concise and specific manner. Few grammatical and spelling mistakes are present. All resources used and referenced are properly cited. -->
@@ -41,6 +43,20 @@ The StatsBomb dataset is publicly available via GitHub [1].
 ## 8. Project Design
 
 <!-- Student summarizes a theoretical workflow for approaching a solution given the problem. A discussion is made as to what strategies may be employed, what analysis of the data might be required, or which algorithms will be considered. The workflow and discussion provided align with the qualities of the project. Small visualizations, pseudocode, or diagrams are encouraged but not required. -->
+
+In this project, we will perform the following workflow tp approach a solution to the described problem:
+1. Data Preperation:
+- Downloading a subset of the StatsBomb Open Data set
+- Pre-processing and cleaning the data (if needed)
+- Uploading the data to an S3 Bucket to make it available for SageMaker training
+2. Data Exploration:
+- Visualizing some specific details of the data to give an insgight into the data
+3. Creation of Training Script:
+- First, reading, loading and pre-processing the StatsBomb data
+- Then, splitting the data into train, test, and validation
+- Finally, training the data with the chosen architecture
+4. Deployment of the model:
+- Providing a SageMaker inference endpoint to test the model with previously unregarded match data of StatsBomb
 
 ## 9. References
 
