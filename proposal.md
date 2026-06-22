@@ -42,7 +42,7 @@ Amongst the mentioned Classifiers and Regressors are the following:
 
 <!-- 	Student proposes at least one evaluation metric that can be used to quantify the performance of both the benchmark model and the solution model presented. The evaluation metric(s) proposed are appropriate given the context of the data, the problem statement, and the intended solution.  -->
 
-Common classification metrics in Machine Learning like Precision, Recall, or the F1 Score are used, while the most important metric here will be the **Accuracy Score**, which represents the fraction of correctly classified samples, since it determines how many of the matches' results have been correctly classified.
+Common classification metrics in Machine Learning (e.g., summarized in [2]) like Precision, Recall, or the F1 Score are used, while the most important metric here will be the **Accuracy Score**, which represents the fraction of correctly classified samples, since it determines how many of the matches' results have been correctly classified.
 
 Here, the Accuracy is calculated in a row-wise manner representing single football matches.
 
@@ -93,3 +93,4 @@ In this project, we will perform the following workflow tp approach a solution t
 ## 9. References
 
 [1] StatsBomb Open Data: https://github.com/statsbomb/open-data
+[2] Beyond Accuracy: The Ultimate Guide to Classification Metrics in Machine Learning, by Amit Kharche. https://medium.com/@amitkharche/beyond-accuracy-the-ultimate-guide-to-classification-metrics-in-machine-learning-b19b84273b7c
