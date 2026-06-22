@@ -44,18 +44,18 @@ Regarding analytical data in modern football, ...
 
 <!-- Student summarizes a theoretical workflow for approaching a solution given the problem. A discussion is made as to what strategies may be employed, what analysis of the data might be required, or which algorithms will be considered. The workflow and discussion provided align with the qualities of the project. Small visualizations, pseudocode, or diagrams are encouraged but not required. -->
 
-In this project, we will perform the following workflow tp approach a solution to the described problem:
-1. Data Preperation:
+In this project, we will perform the following workflow tp approach a solution to the described problem - this represents a common approach with typical steps in Machine Learning projects:
+1. Data Preperation *- required to make the data available with an adequate quality*
 - Downloading a subset of the StatsBomb Open Data set
 - Pre-processing and cleaning the data (if needed)
 - Uploading the data to an S3 Bucket to make it available for SageMaker training
-2. Data Exploration:
+2. Data Exploration *- important to gain an insight of the data*
 - Visualizing some specific details of the data to give an insgight into the data
-3. Creation of Training Script:
+3. Creation of Training Script *- standard proceeding in modern Machine Learning approaches*
 - First, reading, loading and pre-processing the StatsBomb data
 - Then, splitting the data into train, test, and validation
 - Finally, training the data with the chosen architecture
-4. Deployment of the model:
+4. Deployment of the model *- making the results of the model training available to other users*
 - Providing a SageMaker inference endpoint to test the model with previously unregarded match data of StatsBomb
 
 ## 9. References
