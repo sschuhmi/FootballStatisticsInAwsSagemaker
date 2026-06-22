@@ -46,9 +46,9 @@ Regarding analytical data in modern football, ...
 
 In this project, we will perform the following workflow tp approach a solution to the described problem - this represents a common approach with typical steps in Machine Learning projects:
 1. Data Preperation *- required to make the data available with an adequate quality*
-- Downloading a subset of the StatsBomb Open Data set
-- Pre-processing and cleaning the data (if needed)
-- Uploading the data to an S3 Bucket to make it available for SageMaker training
+  - Downloading a subset of the StatsBomb Open Data set
+  - Pre-processing and cleaning the data (if needed)
+  - Uploading the data to an S3 Bucket to make it available for SageMaker training
 2. Data Exploration *- important to gain an insight of the data*
 - Visualizing some specific details of the data to give an insgight into the data
 3. Creation of Training Script *- standard proceeding in modern Machine Learning approaches*
