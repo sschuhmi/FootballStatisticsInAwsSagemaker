@@ -46,8 +46,8 @@ Since the match results are also available (but not regarded within the predicti
 
 In this project, we rely on the well-known StatsBomb open source dataset, which encompasses extensive statistics of thousands of played matches in different competitions like the global World Cup, continental championships such as the Copa America in South America, or club championships like the European Champions League.
 
-StatsBomb comprises competitions as well as seasons, with matches for each competition and season.
-Each match consists of over 3,400 events in average as well as the lineups. The matches are widely spreat across 190+ competitions, combined with player-location data for 40+ key leagues.
+StatsBomb comprises competitions as well as seasons, with matches for each competition and season. Currently in June 2026, there are many thousands of matches with publicly avaibable statistics data in StatsBomb published.
+Every single match consists of over 3,400 events in average as well as the lineups. The matches are widely spreat across 190+ competitions, combined with player-location data for 40+ key leagues.
 There exist 119 different events which are included, such as passes, shots, fouls, dribblings, or goalkeeper related events (e.g., saves, clearances, punches).
 
 The StatsBomb dataset is publicly available via GitHub [4].
