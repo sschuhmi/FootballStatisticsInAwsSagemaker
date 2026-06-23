@@ -1,6 +1,6 @@
 ## Proposal for Capstone Project
 
-# Topic: "Predicting results in modern football games using Machine Learning algorithms in AWS SageMaker"
+# Topic: "Operationalizing the prediction of results in modern football games using Machine Learning algorithms in AWS SageMaker"
 
 Part of Udacity's Nanodegree Program "AWS Machine Learning Engineer" (nd189) - 
 
