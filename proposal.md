@@ -35,9 +35,9 @@ The StatsBomb dataset is publicly available via GitHub [1].
 
 <!-- A benchmark model is provided that relates to the domain, problem statement, and intended solution. Ideally, the student's benchmark model provides context for existing methods or known information in the domain and problem given, which can then be objectively compared to the student's solution. The benchmark model is clearly defined and measurable. -->
 
-We exploit the large open data set and use Machine Learning multi-output Classifiers and Regressors to predict the winner of a match, compared to a simple non-ML Classifier which randomly decides one of the possible three results - first team wins, second team wins, or there is a draw between the teams.
+We exploit the large open data set and use Machine Learning multi-output Classifiers and Regressors to make predictions on an unknown match by exploiting the events and results of known matches. We compare the benchmark model to a simple non-ML Classifier which randomly predicts e.g. on the winner of a match.
 
-Amongst the mentioned Classifiers and Regressors are the following:
+Amongst the mentioned Classifiers and Regressors that will be considered are the following well-known models included in scikit-learn [3]:
 - Decision Trees
 - Random Forests
 - Gradient Descent
@@ -98,3 +98,4 @@ In this project, we will perform the following workflow tp approach a solution t
 
 [1] StatsBomb Open Data: https://github.com/statsbomb/open-data
 [2] Beyond Accuracy: The Ultimate Guide to Classification Metrics in Machine Learning, by Amit Kharche. https://medium.com/@amitkharche/beyond-accuracy-the-ultimate-guide-to-classification-metrics-in-machine-learning-b19b84273b7c
+[3] Gradient boosting, random forests, and other Supervised Learning algorithms in skicit-learn. https://scikit-learn.org/stable/modules/ensemble.html
