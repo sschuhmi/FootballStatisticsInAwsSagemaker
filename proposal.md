@@ -23,7 +23,7 @@ Thus, in a single match, there are always 3 possible results where exactly one w
 - 'win_none': The home team and the away team score exactly the same number of goals, i.e. the result is a draw
 - 'win_away': The away team scores more goals than the home team and wins
 
-While other works (e.g., ...) rather focused on the algorithmic aspects, we are additionally aiming at making the results production-ready in AWS by additionally considering topics like deployment, security, or cost efficiency of our solution. To achieve this operationalizing, we are relying on the modern AWS SageMaker framework ([cite]).
+While other works (e.g., [1], [2]) rather focused on the algorithmic aspects, we are additionally aiming at making the prediction model production-ready in AWS by additionally considering topics like deployment, security, or cost efficiency of our solution. To achieve this operationalizing, we are relying on the modern AWS SageMaker framework ([3).
 
 <!-- Refer to related work and note the differences -->
 
@@ -41,7 +41,7 @@ StatsBomb comprises competitions as well as seasons, with matches for each compe
 Each match consists of over 3,400 events in average as well as the lineups. The matches are widely spreat across 190+ competitions, combined with player-location data for 40+ key leagues.
 There exist 119 different events which are included, such as passes, shots, fouls, dribblings, or goalkeeper related events (e.g., saves, clearances, punches).
 
-The StatsBomb dataset is publicly available via GitHub [1].
+The StatsBomb dataset is publicly available via GitHub [4].
 
 ## 5. Benchmark Model
 
@@ -49,7 +49,7 @@ The StatsBomb dataset is publicly available via GitHub [1].
 
 We exploit the large open data set and use Machine Learning multi-output Classifiers and Regressors to make predictions on an unknown match by exploiting the events and results of known matches. We compare the benchmark model to a simple non-ML Classifier which randomly predicts e.g. on the winner of a match.
 
-Amongst the mentioned Classifiers and Regressors that will be considered are the following well-known models included in scikit-learn [3]:
+Amongst the mentioned Classifiers and Regressors that will be considered are the following well-known models included in scikit-learn [5]:
 - Decision Trees
 - Random Forests
 - Gradient Descent
@@ -58,7 +58,7 @@ Amongst the mentioned Classifiers and Regressors that will be considered are the
 
 <!-- 	Student proposes at least one evaluation metric that can be used to quantify the performance of both the benchmark model and the solution model presented. The evaluation metric(s) proposed are appropriate given the context of the data, the problem statement, and the intended solution.  -->
 
-Common classification metrics in Machine Learning (e.g., summarized in [2]) like Precision, Recall, or the F1 Score will be considered in this project, while the most important metric here will be the **Accuracy Score**, which represents the fraction of correctly classified samples, since it determines how many of the matches' results have been correctly classified.
+Common classification metrics in Machine Learning (e.g., summarized in [6]) like Precision, Recall, or the F1 Score will be considered in this project, while the most important metric here will be the **Accuracy Score**, which represents the fraction of correctly classified samples, since it determines how many of the matches' results have been correctly classified.
 
 Here, the Accuracy is calculated in a row-wise manner representing single football matches.
 
@@ -108,6 +108,9 @@ In this project, we will perform the following workflow tp approach a solution t
 
 ## 9. References
 
-[1] StatsBomb Open Data: https://github.com/statsbomb/open-data
-[2] Beyond Accuracy: The Ultimate Guide to Classification Metrics in Machine Learning, by Amit Kharche. https://medium.com/@amitkharche/beyond-accuracy-the-ultimate-guide-to-classification-metrics-in-machine-learning-b19b84273b7c
-[3] Gradient boosting, random forests, and other Supervised Learning algorithms in skicit-learn. https://scikit-learn.org/stable/modules/ensemble.html
+[1] Machine Learning Applied to Professional Football: Performance Improvement and Results Prediction. https://www.mdpi.com/2504-4990/7/3/85
+[2] Predicting Results of modern Football matches using StatsBomb analysis data and advanced multi-output Machine Learning Regressors. https://sschuhmi.github.io/2024/10/06/PredictingFootballResults.html
+[3] Amazon SageMaker. https://aws.amazon.com/sagemaker/
+[4] StatsBomb Open Data: https://github.com/statsbomb/open-data
+[5] Beyond Accuracy: The Ultimate Guide to Classification Metrics in Machine Learning, by Amit Kharche. https://medium.com/@amitkharche/beyond-accuracy-the-ultimate-guide-to-classification-metrics-in-machine-learning-b19b84273b7c
+[6] Gradient boosting, random forests, and other Supervised Learning algorithms in skicit-learn. https://scikit-learn.org/stable/modules/ensemble.html
