@@ -2,7 +2,7 @@
 
 # Topic: "Operationalizing the prediction of results in modern football games using Machine Learning algorithms in AWS SageMaker"
 
-Part of Udacity's Nanodegree Program "AWS Machine Learning Engineer" (nd189) - 
+Part of Udacity's Nanodegree Program "AWS Machine Learning Engineer" (nd189).
 
 ## 1. Domain Background
 
