@@ -25,6 +25,10 @@ In the last years, the amount of analysis data that is generated in modern footb
 
 In this project, we rely on the well-known StatsBomb open source dataset, which encompasses extensive statistics of thousands of played matches in different competitions like the global World Cup, continental championships such as the Copa America in South America, or club championships like the European Champions League.
 
+StatsBomb comprises competitions as well as seasons, with matches for each competition and season.
+Each match consists of over 3,400 events in average as well as the lineups. The matches are widely spreat across 190+ competitions, combined with player-location data for 40+ key leagues.
+There exist 119 different events which are included, such as passes, shots, fouls, dribblings, or goalkeeper related events (e.g., saves, clearances, punches).
+
 The StatsBomb dataset is publicly available via GitHub [1].
 
 ## 5. Benchmark Model
@@ -42,7 +46,7 @@ Amongst the mentioned Classifiers and Regressors are the following:
 
 <!-- 	Student proposes at least one evaluation metric that can be used to quantify the performance of both the benchmark model and the solution model presented. The evaluation metric(s) proposed are appropriate given the context of the data, the problem statement, and the intended solution.  -->
 
-Common classification metrics in Machine Learning (e.g., summarized in [2]) like Precision, Recall, or the F1 Score are used, while the most important metric here will be the **Accuracy Score**, which represents the fraction of correctly classified samples, since it determines how many of the matches' results have been correctly classified.
+Common classification metrics in Machine Learning (e.g., summarized in [2]) like Precision, Recall, or the F1 Score will be considered in this project, while the most important metric here will be the **Accuracy Score**, which represents the fraction of correctly classified samples, since it determines how many of the matches' results have been correctly classified.
 
 Here, the Accuracy is calculated in a row-wise manner representing single football matches.
 
