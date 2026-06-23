@@ -8,8 +8,8 @@ Part of Udacity's Nanodegree Program "AWS Machine Learning Engineer" (nd189) -
 
 <!-- Student briefly details background information of the domain from which the project is proposed. Historical information relevant to the project should be included. It should be clear how or why a problem in the domain can or should be solved. Related academic research should be appropriately cited. A discussion of the student's personal motivation for investigating a particular problem in the domain is encouraged but not required. -->
 
-In modern football, data in shape of match statistics is comprehensive and vital e.g. for club managers to investigate strengths and weaknesses of their clubs. 
-In the last years, the amount of analysis data that is generated in modern football matches using cameras, drones or other advanced technologies has significantly increased.
+In modern football, data in shape of match statistics is comprehensive and vital e.g. for club managers to investigate strengths and weaknesses of their clubs, but also for fans placing their bets on specific football matches. 
+In the last years, the amount of analysis data that is generated in modern football matches using cameras, drones or other advanced technologies has significantly increased. This makes football statistics to an interesting goal for data scientists and machine learning engineers predicting results by exploiting modern approaches and algorithms from their research fields.
 
 ## 2. Problem Statement
 
