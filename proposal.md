@@ -23,13 +23,21 @@ Thus, in a single match, there are always 3 possible results where exactly one w
 - 'win_none': The home team and the away team score exactly the same number of goals, i.e. the result is a draw
 - 'win_away': The away team scores more goals than the home team and wins
 
-While other works (e.g., [1], [2]) rather focused on the algorithmic aspects, we are additionally aiming at making the prediction model production-ready by additionally considering topics like deployment, security, or cost efficiency of our solution. To achieve this operationalizing, we are relying on Amazon´s modern AWS SageMaker framework ([3).
-
 <!-- Refer to related work and note the differences -->
+
+While other works (e.g., [1], [2]) rather focused on the algorithmic aspects, we are additionally aiming at making the prediction model production-ready by additionally considering topics like deployment, security, or cost efficiency of our solution. To achieve this operationalizing, we are relying on Amazon´s modern AWS SageMaker framework ([3).
 
 ## 3. Solution Statement
 
 <!-- Student clearly describes a solution to the problem. The solution is applicable to the project domain and appropriate for the dataset(s) or input(s) given. Additionally, the solution is quantifiable, measurable, and replicable. -->
+
+To solve the problem of predicting results of football matches based on its statistics obtained by StatsBomb, the following objects will be provided:
+- S3 bucket: To store the football match data, an AWS S3 bucket is used and accessed for obtaining the provided StatsBomb data
+- Inference endpoint: The endpoint is deployed in AWS SageMaker and allows the prediction of the result of a football match given the consolidated statistics of StatsBomb in a structured way.
+- Lambda Function: A Function deployed within AWS Lambda will act as an interface between the end-user and the inference endpoint. It returns the prediction of the match´s winner (or if a draw is predicted)
+- Built-in Security: The solution relies on AWS´ built-in IAM security, allowing only a restricted access to the AWS resources and data.
+
+Since the match results are also available (but not regarded within the predictions), the results are easily quantifiable, measurable and replicable, even for future StatsBomb data of newer events, e.g. the matches of the currently ongoing World Cup 2026.
 
 ## 4. Datasets and Inputs
 
