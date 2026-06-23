@@ -109,8 +109,13 @@ In this project, we will perform the following workflow tp approach a solution t
 ## 9. References
 
 [1] Machine Learning Applied to Professional Football: Performance Improvement and Results Prediction. https://www.mdpi.com/2504-4990/7/3/85
+
 [2] Predicting Results of modern Football matches using StatsBomb analysis data and advanced multi-output Machine Learning Regressors. https://sschuhmi.github.io/2024/10/06/PredictingFootballResults.html
+
 [3] Amazon SageMaker. https://aws.amazon.com/sagemaker/
+
 [4] StatsBomb Open Data: https://github.com/statsbomb/open-data
+
 [5] Beyond Accuracy: The Ultimate Guide to Classification Metrics in Machine Learning, by Amit Kharche. https://medium.com/@amitkharche/beyond-accuracy-the-ultimate-guide-to-classification-metrics-in-machine-learning-b19b84273b7c
+
 [6] Gradient boosting, random forests, and other Supervised Learning algorithms in skicit-learn. https://scikit-learn.org/stable/modules/ensemble.html
