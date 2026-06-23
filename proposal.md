@@ -23,7 +23,7 @@ Thus, in a single match, there are always 3 possible results where exactly one w
 - 'win_none': The home team and the away team score exactly the same number of goals, i.e. the result is a draw
 - 'win_away': The away team scores more goals than the home team and wins
 
-While other works (e.g., [1], [2]) rather focused on the algorithmic aspects, we are additionally aiming at making the prediction model production-ready in AWS by additionally considering topics like deployment, security, or cost efficiency of our solution. To achieve this operationalizing, we are relying on the modern AWS SageMaker framework ([3).
+While other works (e.g., [1], [2]) rather focused on the algorithmic aspects, we are additionally aiming at making the prediction model production-ready by additionally considering topics like deployment, security, or cost efficiency of our solution. To achieve this operationalizing, we are relying on Amazon´s modern AWS SageMaker framework ([3).
 
 <!-- Refer to related work and note the differences -->
 
