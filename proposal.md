@@ -36,6 +36,7 @@ To solve the problem of predicting results of football matches based on its stat
 - Inference endpoint: The endpoint is deployed in AWS SageMaker and allows the prediction of the result of a football match given the consolidated statistics of StatsBomb in a structured way.
 - Lambda Function: A Function deployed within AWS Lambda will act as an interface between the end-user and the inference endpoint. It returns the prediction of the match´s winner (or if a draw is predicted)
 - Built-in Security: The solution relies on AWS´ built-in IAM security, allowing only a restricted access to the AWS resources and data.
+- Adaptation to changing load and performance requirements: To be able to react to changing , we will enable automatic adaptation to changing needs via AWS´ mechanisms 'Auto-Scaling' (for the endpoint) and 'Concurrency' (for the Lambda function). This helps to guarantee low-latencies even in high-throughput scenarios, without increasing costs extraordinarily.
 
 Since the match results are also available (but not regarded within the predictions), the results are easily quantifiable, measurable and replicable, even for future StatsBomb data of newer events, e.g. the matches of the currently ongoing World Cup 2026.
 
